@@ -6,6 +6,7 @@
 .header{
     display: flex;
     justify-content: space-around;
+    gap: 40px;
     flex-wrap: wrap;
     box-shadow: 1px 1px 5px red;
 }
@@ -22,7 +23,6 @@
 .head-nav{
     display: flex;
     align-items: center;
-    flex-wrap: nowrap;
     list-style: none;
     gap: 50px;
     font-size: 20px;
@@ -53,6 +53,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
+    margin: 20px;
 }
 .head-login-cart img{
     width: 40px;

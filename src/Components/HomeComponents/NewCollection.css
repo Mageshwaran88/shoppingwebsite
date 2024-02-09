@@ -22,6 +22,8 @@
     display: flex;
     flex-direction: column;
     margin: 20px 0px;
+}
+.collection-items:hover{
     box-shadow: 1px 1px 5px lightpink;
 }
 .collection-items h2{

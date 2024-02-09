@@ -15,12 +15,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 30px;
 }
 .popular-card{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    padding-left: 40px;
+}
+.popular-card:hover{
     box-shadow: 1px 1px 5px lightpink;
 }
 .popular-card h2{
