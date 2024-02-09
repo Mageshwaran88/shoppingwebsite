@@ -1,0 +1,9 @@
+.breadcrum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+.breadcrum p{
+    font-size: 22px;
+}

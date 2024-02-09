@@ -1,0 +1,85 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 5px red;
+}
+.head-logo{
+    display: flex;
+    align-items: center;
+}
+.head-logo img{
+    width: 125px;
+}
+.head-logo h1{
+    color: rgb(216, 51, 51);
+}
+.head-nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    list-style: none;
+    gap: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(216, 51, 51);
+}
+.head-nav li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+.head-nav hr{
+    border: none;
+    width: 80%;
+    height: 2px;
+    border-radius: 10px;
+    background-color:  rgb(216, 51, 51);
+}
+.route-link{
+    color: rgb(216, 51, 51);
+    text-decoration-line: none;
+}
+.head-login-cart{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.head-login-cart img{
+    width: 40px;
+}
+.head-login-cart button{
+    padding: 10px 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(216, 51, 51);
+}
+.head-login-cart button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(235, 11, 11);
+}
+.cart-count{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 12px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(18, 207, 18);
+}
