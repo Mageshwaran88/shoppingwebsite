@@ -1,13 +1,14 @@
 .sign-up{
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: lightblue;
     padding: 100px 0px;
     margin-bottom: -20px;
 }
 .signup-login{
-    width: 375px;
+    width: 30%;
     background-color: white;
-    margin: auto;
     padding: 40px 60px;
 }
 .signup-head h1{
@@ -29,7 +30,7 @@
     font-size: 18px;
 }
 .signup-login button{
-    width: 400px;
+    width: 100%;
     height: 40px;
     color: white;
     background-color: rgb(216, 51, 51);

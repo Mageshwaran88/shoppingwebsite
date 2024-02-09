@@ -1,6 +1,8 @@
 .productdisplay{
     display: flex;
-    gap: 100px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     margin: 20px 200px;
 }
 .productdisplay-left{
@@ -44,6 +46,7 @@
     display: flex;
 }
 .size{
+cursor: pointer;
     padding: 10px;
     margin: 5px 10px;
     background-color: lightyellow;
@@ -59,3 +62,7 @@
         font-weight: 500;
         cursor: pointer;   
 }
+.productdisplay-right button:hover{
+        background-color: red;
+}
+

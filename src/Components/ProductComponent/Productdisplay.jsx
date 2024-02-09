@@ -20,7 +20,7 @@ export const Productdisplay = (props) => {
         </div>
         <div className='productdisplay-right'>
           <p>{products.category} {products.name}</p>
-          <h2>{products.price}</h2>
+          <h2>${products.price}</h2>
           <p>Select Size</p>
           <div className='productdisplay-size'>
           <div className='size'>S</div>
