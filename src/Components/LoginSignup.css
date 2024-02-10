@@ -4,8 +4,10 @@
     align-items: center;
     height: 100vh;
     background-color: lightblue; 
+    margin-bottom: -20px;
 }
 .signup-login{
+    margin: 0px 40px;
     padding: 50px 25px;
     background-color: white;
 }
